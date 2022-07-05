@@ -1,0 +1,17 @@
+button{
+    outline: none;
+    border: 2px solid black;
+    font-weight: 800;
+}
+.board-grid{
+    display: grid;
+    height: 200px;
+    width: 200px;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+    margin:0 auto;
+}
+h3,.play-again{
+    width: 200px;
+    margin:10px auto;
+    display: block;
+}
